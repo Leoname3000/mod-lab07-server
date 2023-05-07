@@ -1,0 +1,22 @@
+Used server with 5 threads and processing time of 500ms,
+applying a load of 75 requests with delay of 80ms between each two;
+Server worked for 6409ms and received 75 requests: 60 processed, 15 rejected.
+
+Theoretical request intensity: 0,0125
+Theoretical process intensity: 0,002
+Theoretical requests per processing: 6,25
+Theoretical idling probability: 0,0076
+Theoretical rejection probability: 0,6064
+Theoretical relative throughput: 0,3936
+Theoretical absolute throughput: 0,0049
+Theoretical average busy threads: 2,4598
+
+Actual request intensity: 0,0094
+Actual process intensity: 0,0023
+Actual requests per processing: 4
+Actual idling probability: 0,0291
+Actual rejection probability: 0,2485
+Actual relative throughput: 0,7515
+Actual absolute throughput: 0,007
+Actual average busy threads: 3,0058
+
